@@ -224,4 +224,4 @@ def chatbot_fn(message, history):
 
 # Launch Gradio chat interface
 chat = gr.ChatInterface(fn=chatbot_fn, title="Hipotronics Assistant")
-chat.launch()
+chat.launch(server_name="0.0.0.0", server_port=7860)
