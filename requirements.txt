@@ -1,0 +1,20 @@
+# Core App Framework
+gradio
+
+# FAISS for vector similarity search
+faiss-cpu==1.7.4
+
+# Sentence Embeddings
+sentence-transformers==2.2.2
+
+# Transformers and model inference
+transformers==4.37.2
+torch==2.1.2
+huggingface_hub==0.25.2
+llama-cpp-python
+
+# Utility libraries
+numpy==1.26.4
+scikit-learn==1.4.2
+PyMuPDF==1.23.9
+
